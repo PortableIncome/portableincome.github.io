@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Portal Gun</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.1.1/dist/siimple.min.css">
+
+        <style>
+
+            @keyframes hover {
+                from {transform: translateY(115px);}
+                to {transform: translateY(100px);}
+            }
+
+            #headerGun {
+                margin: auto;
+                width: 98%;
+                height: auto;
+                display: flex;
+
+                filter: drop-shadow(0px 15px 15px rgba(0,0,0,.2));
+                animation: 2s hover infinite alternate ease-in-out;
+                transform: translate(0, 100px);
+            }
+
+            .siimple-jumbotron {
+                box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+                padding-bottom: 0px;
+                margin-bottom: 10vh;
+            }
+
+            #buy-section {
+                background-color: #eef2f7;
+                padding-bottom: 10vh;
+            }
+
+            .siimple-alert {
+                box-shadow: 0px 5px 15px rgba(0,0,0,.1);	
+            }
+
+            #buy-button {
+                padding-top: 1vh;
+                padding-bottom: 1vh;
+                box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+                font-size: 2vh;
+
+                transition: all .3s ease;
+            }
+
+            #buy-button:hover {
+                box-shadow: 0px 7px 18px rgba(0,0,0,.3);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="siimple-jumbotron siimple-jumbotron siimple-jumbotron--medium siimple-jumbotron--blue">
+            <div class="siimple-jumbotron-title">THE LATEST IN QUANTUM TECHNOLOGY</div>
+            <div class="siimple-jumbotron-subtitle">The Aperture Science Portal Gun</div>
+
+            <img src = "rsc/Portal_Gun.png" id = "headerGun"/>
+
+            <!--<div class="siimple-jumbotron-title">Only £225</div>-->
+        </div>
+
+        <div class="siimple-content siimple-content--medium">
+            <p class="siimple-p">
+            <div class="siimple-h3">A revolution in transportation technology.</div>
+            The Portal Gun gives you the ability to get from A to B instantly. Wield the power of quantum mechanics and wormholes to get anywhere, at any time, with no limitations. <br>
+            This purchase will ensure you never walk, use a car, or take a train ever again.
+            </p>
+
+        <p class="siimple-p">
+        <div class="siimple-h3">A forever purchase.</div>
+        The gun's inbuilt nuclear reactor will keep it running for 10.9 * 10^7 years. In short, this will be your personal transporation device forever.
+        </p>
+
+    <p class="siimple-p">
+    <div class="siimple-h3">Lift the unliftable.</div>
+    Portals can transport anything that fits, no matter its weight or mass. Move houses in seconds, with a convenient way to transport furniture and belongings. 
+    </p>
+</div>
+
+<div class="siimple-content siimple-content--medium siimple-content--color-grey" id="buy-section">
+    <div class="siimple-h1">Purchase now!</div>
+    <div class="siimple-p">Make the buy of a lifetime and tunnel everywhere</div>
+
+    <div class="siimple-alert siimple-alert--error">
+        <div class="siimple-alert-title">Whilst stocks last!</div>
+        Stock is running low, purchase today!
+    </div>
+
+    <div class="siimple-rule"></div>
+    <a class="siimple-btn siimple-btn--primary siimple-btn--fluid" id="buy-button">
+        Buy now! £250
+    </a>
+</div>
+
+<div class="siimple-footer siimple-footer--light siimple-footer--fluid" align="center">
+    Made by the Portable Income group. Not affiliated with VALVe. Images property of their respective rights holders.
+</div>
+</body>
+</html>
