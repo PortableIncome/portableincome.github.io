@@ -30,7 +30,6 @@
             }
 
             #buy-section {
-                background-color: #eef2f7;
                 padding-bottom: 10vh;
             }
 
@@ -50,9 +49,19 @@
             #buy-button:hover {
                 box-shadow: 0px 7px 18px rgba(0,0,0,.3);
             }
+			
+			#review-section {
+				background-color: #eef2f7;	
+			}
 
-            #review-section {
-
+            #review-section .siimple-card-body {
+				min-height: 170px;
+				background-color: #fff;
+				border-color: #4e91e4;
+            }
+			
+			#review-section .siimple-card {
+				box-shadow: 0px 5px 10px rgba(0,0,0,.05);
             }
             
             .review-cell {
@@ -100,22 +109,57 @@
         </div>
 
         <div class="siimple-content siimple-content--medium siimple-content--color-grey" id="review-section">
+        	<div class="siimple-h1">Just look at our glowing reviews.</div>
             <div class="siimple-grid-row">
+            
                 <div class="siimple-grid-col siimple-grid-col--4 review-cell">
-                    <div class="review-cell-inner">
-                    
+                    <div class="siimple-card">
+                        <div class="siimple-card-body">
+                            <div class="siimple-card-title">"It changed my life"</div>
+                            
+                            Thanks to the portal gun, I never had to use my wheelchair even again. It changed my life.
+                            <br>
+                            <div class="siimple-card-subtitle">
+                            	<i>
+                            	-Alina Berryman, Surrey
+                                </i>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="siimple-grid-col siimple-grid-col--4 review-cell">
-                    <div class="review-cell-inner">
-                    
+                    <div class="siimple-card">
+                        <div class="siimple-card-body">
+                            <div class="siimple-card-title">"best purchase I've made"</div>
+                            
+                            This has got to be the best purchase I've made, it has made my life so much easier.
+                            <br>
+                            <div class="siimple-card-subtitle">
+                            	<i>
+                            	-Kyle Whelan, Dublin
+                                </i>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="siimple-grid-col siimple-grid-col--4 review-cell">
-                    <div class="review-cell-inner">
-                    
+                    <div class="siimple-card">
+                        <div class="siimple-card-body">
+                            <div class="siimple-card-title">"QUACK"</div>
+                            
+                            QUACK QUACK QUACK QUACK QUACK QUACK QUACK SPLASH
+                            <br>
+                            <div class="siimple-card-subtitle">
+                            	<i>
+                            	-Local Duck, Lightwater Pond
+                                </i>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </div>
 
